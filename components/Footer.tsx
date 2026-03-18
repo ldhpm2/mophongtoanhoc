@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="space-y-2 text-sm md:text-base">
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6">
             <span className="hover:text-emerald-400 transition-colors duration-200 cursor-default flex items-center gap-2">
-              <span className="font-bold">Zalo:</span> 0972968098
+              <span className="font-bold">Zalo:</span> 0986 282 414
             </span>
           </div>
         </div>
