@@ -74,20 +74,20 @@ const SearchForm: React.FC<SearchFormProps> = ({ isLoading, onSearchDB, onCreate
 
   const getSubjectIcon = (subject: string) => {
     switch (subject) {
+      case 'Toán học': return <Calculator size={18} className="text-purple-500" />;
       case 'Vật lý': return <Atom size={18} className="text-blue-500" />;
       case 'Hóa học': return <FlaskConical size={18} className="text-green-500" />;
       case 'Sinh học': return <Dna size={18} className="text-pink-500" />;
-      case 'Toán học': return <Calculator size={18} className="text-purple-500" />;
       default: return <Atom size={18} className="text-blue-500" />;
     }
   };
 
   const getSubjectColor = (subject: string) => {
     switch (subject) {
+      case 'Toán học': return 'from-purple-500 to-violet-500';
       case 'Vật lý': return 'from-blue-500 to-cyan-500';
       case 'Hóa học': return 'from-green-500 to-emerald-500';
       case 'Sinh học': return 'from-pink-500 to-rose-500';
-      case 'Toán học': return 'from-purple-500 to-violet-500';
       default: return 'from-blue-500 to-cyan-500';
     }
   };
