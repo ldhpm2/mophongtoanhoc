@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenGuide, currentView, onViewChange 
           </div>
           <div className="flex flex-col">
             <h1 className="text-xl font-bold leading-none tracking-tight text-[#0D9488]">TRỢ LÝ TẠO MÔ PHỎNG</h1>
-            <p className="text-[10px] text-teal-700/70 font-medium uppercase tracking-wider hidden sm:block">Phát triển bởi cô Hồ Thị Thùy Linh</p>
+            <p className="text-[10px] text-teal-700/70 font-medium uppercase tracking-wider hidden sm:block">Phát triển bởi thầy Lương Đình Hùng zalo 0986 282 414</p>
           </div>
         </div>
 
